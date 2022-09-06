@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+<body>
+
+    <img src="imagens/banner-voeairlines.png">
+
+    <p id="piloto"> </p>
+
+    <script>
+        const piloto = {
+          primeiroNome:"Regys",
+          ultimoNome:"Souza",
+          idade: 31,
+          corDaPele:"Pardo"
+        };
+
+        document.getElementById("piloto").innerHTML = piloto.primeiroNome + " "+piloto.idade+" "+piloto.corDaPele;
+
+        const nomePiloto = "Regys";
+        const valorSalario = 11550.50;
+        const qtdeFilhos = 4;
+        const bolsaFilho = qtdeFilhos * 600;
+        const totalSalario = valorSalario + bolsaFilho;
+        const militar = false;
+        alert("O tipo é:"+typeof militar);
+        alert("Nosso piloto é:"+piloto.primeiroNome);
+
+        console.log("Piloto: "+typeof nomePiloto);
+        console.log("salário: "+typeof valorSalario);
+        console.log("Qtde Filhos: "+typeof qtdeFilhos);
+        console.log("Valor bolsa: "+typeof bolsaFilho);
+        console.log("valor total salário "+typeof totalSalario);
+        consloe.log("militar: "+typeof militar);
+    </script>
+
+<footer>VoeAirLines &copy; 2022 - Treinamento Intensivo - JavaScript</footer>
+
+</body>
+</html>
